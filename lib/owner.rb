@@ -18,6 +18,7 @@ class Owner
   end
 
   def pets
+    binding.pry
     @pets
   end
 
