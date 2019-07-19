@@ -14,11 +14,11 @@ class Owner
   end
 
   def say_species(bladhh)
+    binding.pry
     "I am a #{@species}."
   end
 
   def pets
-    binding.pry
     @pets
   end
 
